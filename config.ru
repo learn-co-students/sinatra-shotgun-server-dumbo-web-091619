@@ -1,3 +1,6 @@
-require './config/environment'
+require 'bundler/setup'
+Bundler.require
 
-run App
+require './app/application.rb'
+
+run Application
